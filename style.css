@@ -1,0 +1,60 @@
+
+
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    color: darkcyan;
+}
+h1 {
+    font-size: 20pt;
+    font-weight: 500;
+    color: darkred;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 400;
+    color: royalblue;
+}
+
+p {
+    font-size: 14pt;
+    font-weight: 300;
+    color: black;
+}
+
+a {
+    display: block;
+    color: darkolivegreen;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkolivegreen;
+    color: aliceblue;
+}
+
+.link a:hover {
+    background-color: darkolivegreen;
+    color: aliceblue;
+}
+
+.image {
+    background-color: bisque;
+}
+
+.list {
+    background-color: gainsboro;
+}
+
+.link {
+    background-color: blanchedalmond;
+}
+
+a img {
+    border: 0px;
+}
