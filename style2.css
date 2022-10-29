@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+
+html {
+    font-size: 16px;
+    }
+    
+    body {
+      margin: 0px;
+      background-color: #4c5b6b;
+      font-family: "Merriweather", Georgia, serif;
+    }
+    
+    main {
+      width: 90%;
+      max-width: 1000px;
+      background: #FFF;
+      border-radius: 1rem;
+      padding: 1rem 2rem;
+      box-sizing: border-box;
+      margin: 1rem auto;
+    }
+    
+    nav {
+      color: #E3AD16;
+      background-color: #212931;
+      padding: 0;
+      display: block;
+      margin: 0;
+      border-bottom: 3px solid #FFF;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding-inline-start: 0px;
+      margin-block-start: 0px;
+      margin-block-end: 0px;
+    }
+    
+    
+    nav a {
+      color: #E3AD16;
+    }
+    
+    a {
+      font-weight: bold;
+      font-style: italic;
+      text-decoration: none;
+    }
+    
+    h1, h2, h3 {
+      font-family: "Merriweather", Georgia, serif;
+      margin: 0
+    }
+    
+    h2 {
+      font-weight: 700;
+      font-style: italic;
+    }
+    
+    li {
+      list-style-type: none;
+      font-style: italic;
+    }
+    
+    ol li {
+      text-transform: uppercase;
+    }
+    
+    nav li, nav li a {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .active {
+      background-color: #E3AD16;
+      color: #4c5b6b;
+      padding: 1rem;
+    }
+    
+    /*Footer section*/
+    footer {
+      background: #4c5b6b;
+      color: #212931;
+      width: 100%;
+      margin: 0;
+      padding: 1rem;
+      box-sizing: border-box;
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    /*Media sections*/
+    
+    .media-holder {
+      width: 100%;
+      margin: 4rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      box-sizing: border-box;
+    }
+    
+    .image-holder,.text-holder {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    
+    .image-holder img {
+      width: 100%;
+      max-width: 250px;
+      margin: 0 auto;
+    }
+    
+    
+    /*When the browser is at least 555px wide*/
+    @media (min-width: 555px) {
+    
+      .media-holder {
+        flex-direction: row;
+      }
+    
+      .image-holder {
+        width: 30%;
+      }
+    
+      .text-holder {
+        width: 70%;
+      }
+    
+      nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    
+      nav li {
+        width: 50%;
+      }
+    
+    }
+    
+    @media (min-width: 800px) {
+    
+      .image-holder {
+        width: 250px;
+      }
+    
+      .text-holder {
+        width: calc(100% - 250px);
+      }
+    
+      nav li {
+        width: 25%;
+      }
+    }
