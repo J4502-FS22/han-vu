@@ -95,7 +95,7 @@ html {
     
     /*Media sections*/
     
-    .media-holder {
+    .location-holder, .media-holder {
       width: 100%;
       margin: 4rem 0;
       display: flex;
