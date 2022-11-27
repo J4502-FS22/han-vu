@@ -7,7 +7,7 @@ html {
     
     body {
       margin: 0px;
-      background-color: #4c5b6b;
+      background-color: #71879d;
       font-family: "Merriweather", Georgia, serif;
     }
     
@@ -22,8 +22,8 @@ html {
     }
     
     nav {
-      color: #E3AD16;
-      background-color: #212931;
+      color: #3a78a1;
+      background-color: #71879d;
       padding: 0;
       display: block;
       margin: 0;
@@ -77,13 +77,13 @@ html {
     
     .active {
       background-color: #E3AD16;
-      color: #4c5b6b;
+      color: #71879d;
       padding: 1rem;
     }
     
     /*Footer section*/
     footer {
-      background: #4c5b6b;
+      background: #71879d;
       color: #212931;
       width: 100%;
       margin: 0;
