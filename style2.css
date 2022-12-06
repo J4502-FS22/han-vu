@@ -10,13 +10,13 @@
   border: 0;
 }
 
-.skip.link:focus {
+.skip-link:focus {
  width: unset;
  height: unset;
  position: relative;
  padding: unset;
  margin: unset;
- font-size: 2rem;
+ font-size: 1rem;
 }
 
 html {
