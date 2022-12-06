@@ -163,9 +163,9 @@ html {
     }
     
     button {
-      background-color: #E3AD16;
+      background-color: #057094;
       border: none;
-      color: #000;
+      color: rgb(255, 255, 255);
       text-align: center;
       text-decoration: none;
       font-weight: bold;
@@ -175,7 +175,7 @@ html {
       padding: 0.8rem 1rem;
       border-radius: 5px;
     }
-    
+
     /*When the browser is at least 555px wide*/
     @media (min-width: 555px) {
     
