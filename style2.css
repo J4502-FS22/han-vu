@@ -176,6 +176,21 @@ html {
       border-radius: 5px;
     }
 
+    #datawrapper-chart-ThPpH {width: 0; min-width: 100% !important; border: none;}
+
+    #datawrapper-chart-ZxP0X {width: 0; min-width: 100% !important; border: none;} 
+
+    #datawrapper-chart-fKXHX {width: 0; min-width: 100% !important; border: none;}
+
+    #datawrapper-chart-HhXB2 {width: 0; min-width: 100% !important; border: none;}
+
+    #datawrapper-chart-AbCrX {width: 0; min-width: 100% !important; border: none;}
+
+    #datawrapper-chart-3JLbn {width: 0; min-width: 100% !important; border: none;}
+
+    iframe { border: none;}
+  
+
     /*When the browser is at least 555px wide*/
     @media (min-width: 555px) {
     
